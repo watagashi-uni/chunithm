@@ -118,50 +118,8 @@ def calculate_rating(constant, score):
     else:
         return 0
 
-
-sunp_to_lmn = {
-    (2338, 3): 15.1,  # Disruptor Array 15.2-15.1
-    (2400, 3): 15.0,  # LAMIA 15.1-15.0
-    (428 , 4): 15.2,  # Aleph-0 ULT 15.1-15.2
-    (1017, 3): 15.1,  # ANU 15.0-15.1
-    (2039, 3): 14.8,  # ]-[|/34<#! 14.9-14.8
-    (2336, 3): 14.8,  # 盟月 14.9-14.8
-    (2346, 3): 14.7,  # FLUFFY FLASH 14.8-14.7
-    (2401, 3): 14.7,  # オンソクデイズ!! 14.8-14.7
-    (2351, 3): 14.8,  # Sheriruth 14.7-14.8
-    (2353, 3): 14.9,  # 幻想即興曲 14.8-14.9
-    (2194, 3): 14.3,  # 蒼穹舞楽 14.5-14.3
-    (2338, 2): 14.4,  # Disruptor Array EXP 14.5-14.4
-    (2416, 4): 14.4,  # Snow Colored Score ULT 14.2-14.4
-    (2242, 3): 14.0,  # キルミーのベイベー！ 13.9-14.0
-    (159 , 4): 14.8,  # ジングルベル ULT 14.9-14.8
-    (233 , 4): 14.5,  # アルストロメリア ULT 14.4-14.5
-    (1079, 2): 14.3,  # X7124 EXP 14.4-14.3
-    (2400, 2): 14.1,  # LAMIA EXP 13.9-14.1
-    (2407, 2): 14.0,  # Makear EXP 13.9-14.0
-    (2364, 3): 14.3,  # MAXRAGE 14.2-14.3
-    (2193, 3): 14.1,  # モ°ルモ°ル 14.2-14.1
-    (152 , 3): 14.1,  # Gustav Battle 14.2-14.1
-    (2406, 3): 14.0,  # ASH 14.1-14.0
-    (2356, 3): 14.4,  # Moon of Noon 14.3-14.4
-    (141 , 2): 13.5,  # 閃鋼のブリューナク EXP 13.1-13.5
-    (2445, 3): 13.1,  # Night Spider 12.9-13.1
-    (2336, 2): 12.5,  # 盟月 EXP 12.0-12.5
-    (2343, 3): 12.0,  # ワールドイズマイン 11.6-12.0
-    (2130, 3): 13.8,  # 崩壊歌姫 -disruptive diva- 13.9-13.8
-    (18  , 4): 13.7,  # 千本桜 ULT 13.9-13.7
-    (76  , 2): 13.3,  # luna blu EXP 13.1-13.3
-    (2254, 3): 13.2,  # 1 13.1-13.2
-    (2401, 2): 12.6,  # オンソクデイズ!! EXP 12.3-12.6
-    (2078, 3): 11.8,  # I believe what you said 11.7-11.8
-    (2414, 3): 12.5,  # Pris-Magic! 12.2-12.6
-    (168 , 3): 12.5,  # ネトゲ廃人シュプレヒコール 11.9-12.5
-    (2364, 2): 12.0,  # MAXRAGE EXP 11.9-12.0
-    (2416, 3): 11.8,  # Snow Colored Score 11.1-11.8
-    (70,   3): 13.3,  # STAR 13.1-13.3
-}
-
-
+# 留存备用
+lmn_to_lmnp = {}
 
 
 def parse_chara_id_to_chara_and_trans(chara_id):
@@ -328,7 +286,7 @@ def get_user_info_pic(user_full_data, team_data):
     return img
 
 
-def process_r10(userid, server, version='2.15', sort=True):
+def process_r10(userid, server, version='2.20', sort=True):
     difficulty_mapping = {
         "0": "basic",
         "1": "advanced",
@@ -370,8 +328,8 @@ def process_r10(userid, server, version='2.15', sort=True):
             continue
         if difficulty_level in music['difficulties']:
             difficulty = music['difficulties'][difficulty_level]
-            if version == '2.20':
-                difficulty = sunp_to_lmn.get((int(music_id), int(difficult_id)), difficulty)
+            if version == '2.25':
+                difficulty = lmn_to_lmnp.get((int(music_id), int(difficult_id)), difficulty)
             
             rating = calculate_rating(difficulty, score)
             rating_list.append({
@@ -390,7 +348,7 @@ def process_r10(userid, server, version='2.15', sort=True):
     return rating_list
 
 
-def process_b30(userid, server, version='2.15'):
+def process_b30(userid, server, version='2.20'):
     # 获取用户数据
     user_data = get_all_music(userid, server)
     # 读取音乐数据
@@ -423,8 +381,8 @@ def process_b30(userid, server, version='2.15'):
         jacket_file = music_info['jaketFile']
         try:
             difficulty = music_info['difficulties'][level_dict[level_index]]
-            if version == '2.20':
-                difficulty = sunp_to_lmn.get((int(music_id), int(level_index)), difficulty)
+            if version == '2.25':
+                difficulty = lmn_to_lmnp.get((int(music_id), int(level_index)), difficulty)
         except KeyError:
             continue
         score = int(data['scoreMax'])

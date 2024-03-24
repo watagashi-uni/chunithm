@@ -1,6 +1,12 @@
 # 中二模块说明
 
-该模块不开源 API 和 aimedb 请求部分，用能力的请自己抓包游戏。
+该模块是 [Unibot](https://github.com/watagashi-uni/Unibot) 的一个子模块，引用了部分来自 Unibot 库的 module
+
+API 和 aimedb 请求部分不适合公开，所以该库不包含以上内容，用能力的请自己抓包游戏。
+
+该库同时使用了 [zvuc/otoge-db](https://github.com/zvuc/otoge-db) 中的 [music-ex.json](https://github.com/zvuc/otoge-db/blob/master/chunithm/data/music-ex.json) 来展示歌曲版本和更新日期信息
+
+该库会同步更新新曲数据，数据由以下方式生成
 
 ## 最初所需文件
 

@@ -5,7 +5,7 @@ import re
 import uuid
 from chunithm.alias import chu_aliastomusicid
 import Levenshtein as lev
-from chunithm.b30 import get_all_music, get_user_data, get_user_full_data, get_user_info_pic, get_user_team, sunp_to_lmn
+from chunithm.b30 import get_all_music, get_user_data, get_user_full_data, get_user_info_pic, get_user_team, lmn_to_lmnp
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 from modules.pjskinfo import get_match_rate_sqrt, string_similar
@@ -93,31 +93,34 @@ def song_details(alias):
     original_difficulties = difficulties.copy()  # 复制原始难度
     modified = False  # 标记是否有修改
 
-    for single in difficulties:
-        try:
-            new_value = sunp_to_lmn.get((int(song_id), reverse_difficulty_mapping[single]))
-            if new_value is not None:
-                difficulties[single] = new_value
-                modified = True
-        except KeyError:
-            pass
+    # lmn plus稼动后使用
+    # for single in difficulties:
+    #     try:
+    #         new_value = lmn_to_lmnp.get((int(song_id), reverse_difficulty_mapping[single]))
+    #         if new_value is not None:
+    #             difficulties[single] = new_value
+    #             modified = True
+    #     except KeyError:
+    #         pass
 
     # 构建原始难度字符串
     original_difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{original_difficulties['expert']}/{original_difficulties['master']}"
     if 'ultima' in original_difficulties and original_difficulties['ultima'] > 0:
         original_difficulties_str += f"/{original_difficulties['ultima']}"
 
-    # 构建修改后的难度字符串
-    difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{difficulties['expert']}/{difficulties['master']}"
-    if 'ultima' in difficulties and difficulties['ultima'] > 0:
-        difficulties_str += f"/{difficulties['ultima']}"
+    # 构建修改后的难度字符串 lmn plus稼动后使用
+    # difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{difficulties['expert']}/{difficulties['master']}"
+    # if 'ultima' in difficulties and difficulties['ultima'] > 0:
+    #     difficulties_str += f"/{difficulties['ultima']}"
 
-    # 根据是否有修改，构建最终输出字符串
-    if modified:
-        final_str = f"{original_difficulties_str} (SUN PLUS)\n{difficulties_str} (Luminous)"
-    else:
-        final_str = original_difficulties_str
+    # 根据是否有修改，构建最终输出字符串 lmn plus稼动后使用
+    # if modified:
+    #     final_str = f"{original_difficulties_str} (Luminous)\n{difficulties_str} (Luminous PLUS)"
+    # else:
+    #     final_str = original_difficulties_str
 
+    # lmn plus稼动后使用
+    final_str = original_difficulties_str
 
     if song_music['we_kanji'] and song_music['we_star']:
         title += f"【{song_music['we_kanji']}】"
@@ -194,8 +197,10 @@ def get_diff_music(difficult):
     # 更新 result，添加难度值
     result_with_difficulty = []
     for (music_id, difficulty_number) in result:
-        if (int(music_id), difficulty_number) in sunp_to_lmn:
-            difficulty_value = sunp_to_lmn[(int(music_id), difficulty_number)]
+        # lmn plus稼动后使用
+        # if (int(music_id), difficulty_number) in lmn_to_lmnp:
+        if False:
+            difficulty_value = lmn_to_lmnp[(int(music_id), difficulty_number)]
         else:
             difficulty_value = difficulty_value_dict.get((music_id, difficulty_number), 0)
         result_with_difficulty.append((music_id, difficulty_number, difficulty_value, id_to_image_map.get(music_id)))
