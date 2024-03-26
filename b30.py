@@ -509,14 +509,16 @@ def chunib30(userid, server='aqua', version='2.15'):
     uuid_str = str(uuid.uuid4())
     pic.save(f'piccache/{uuid_str}b30.jpg')
 
+    banState = 0
     try:
         banState = int(get_user_data(userid, server)['banState'])
-        if banState == 1:
-            raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触する疑いのあるデータが存在しています\n今後このようなデータが存在する場合\n本Aimeは使用できなくなりますのでご注意ください", f'piccache/{uuid_str}b30.jpg')
-        elif banState == 2:
-            raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触するユーザーデータが存在しているため\n本Aimeは使用できません", f'piccache/{uuid_str}b30.jpg')
     except:
         pass
+    if banState == 1:
+        raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触する疑いのあるデータが存在しています\n今後このようなデータが存在する場合\n本Aimeは使用できなくなりますのでご注意ください", f'piccache/{uuid_str}b30.jpg')
+    elif banState == 2:
+        raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触するユーザーデータが存在しているため\n本Aimeは使用できません", f'piccache/{uuid_str}b30.jpg')
+
     # pic.show()
     return f'piccache/{uuid_str}b30.jpg'
 
