@@ -6464,6 +6464,22 @@
         }
     },
     {
+        "name": "ユックリ feat.餅千歳",
+        "id": "2524",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "daddc36dbb31ff58.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 10.0,
+            "master": 12.8,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "カリスマ煉獄天神",
         "id": "2468",
         "genreNames": [
@@ -21280,6 +21296,38 @@
         }
     },
     {
+        "name": "【ゆっくり実況】ゆっくりペンギンが怒槌をやってみた！ Part1",
+        "id": "8273",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "bcd2cd5ff570e8bb.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ラストバトル ～サシュウとの戦い～",
+        "id": "8274",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "2231e11bbb845c19.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "シル・ヴ・プレジデント",
         "id": "8275",
         "genreNames": [
@@ -21510,6 +21558,38 @@
             "VARIETY"
         ],
         "jaketFile": "2883628d257bff33.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "4月1日でございました",
+        "id": "8260",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "cb494e0e94ede82c.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "【3Dサウンド】小夜ちゃんが秘密裏に手に入れたヤベエ機材でヤベエ音を録る話【イヤホン推奨】（EDテーマ：A.S.S.S.M.R.）",
+        "id": "8259",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "7c2112df4bfbf10f.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -21872,6 +21952,22 @@
         }
     },
     {
+        "name": "恋はりんりん☆あーりんベル",
+        "id": "8206",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "fa7f503d763cbf2e.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "Memory of Beach",
         "id": "8204",
         "genreNames": [
@@ -21936,6 +22032,38 @@
         }
     },
     {
+        "name": "【3Dサウンド】小野ちゃんが真夏のビーチでスイカを叩き割る話【イヤホン推奨】",
+        "id": "8180",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "fa6efefb66c38dd2.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "conflict(斉唱)",
+        "id": "8181",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "e69344eb5159304d.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "星の器～STAR OF ANDROMEDA",
         "id": "8176",
         "genreNames": [
@@ -21990,6 +22118,22 @@
             "VARIETY"
         ],
         "jaketFile": "a694a0323009a57c.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "なるがちゃんなぎにいよいよえれー目にあわされる話",
+        "id": "8146",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "56f3a98028b88321.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22144,6 +22288,22 @@
         }
     },
     {
+        "name": "イロドリミドリ杯花映塚全一決定戦公式テーマソング『ウソテイ』",
+        "id": "8116",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "43bd6cbc31e4c02c.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "AMAZING MIGHTYYYY!!!!",
         "id": "8110",
         "genreNames": [
@@ -22182,6 +22342,22 @@
             "niconico"
         ],
         "jaketFile": "82bee9dfce16e9fb.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "あねぺったん",
+        "id": "8078",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "a6889b8a729210be.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22310,6 +22486,22 @@
             "VARIETY"
         ],
         "jaketFile": "cbf397f330e040e5.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0,
+            "master": 0,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Help me, あーりん！",
+        "id": "8025",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "c1ff8df1757fedf4.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
