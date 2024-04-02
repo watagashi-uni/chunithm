@@ -283,6 +283,8 @@ def get_user_info_pic(user_full_data, team_data, qqnum, userid, server):
             team_pic = Image.open('chunithm/assets/team/common.png')
         img.paste(team_pic, (0, 0), team_pic.split()[3])
         font_style = ImageFont.truetype("fonts/KOZGOPRO-BOLD.OTF", 18)
+        if not recordname(qqnum, f'team_{server}{userid}', team_data['teamName']):
+            team_data['teamName'] = 'CHUNITHM'
         draw.text((240, 19), team_data['teamName'], fill=(0, 0, 0, 180), font=font_style)
         draw.text((238, 17), team_data['teamName'], fill=(255, 255, 255), font=font_style)
 
