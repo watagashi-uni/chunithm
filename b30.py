@@ -702,7 +702,7 @@ def bind_aimeid(qqnum, aimeid, server='aqua'):
             cursor.execute(sql, val)
             conn.commit()
 
-            if not recordname(qqnum, f'chuni_{server}{aimeid}', user_data['userName']):
+            if not recordname(qqnum, f'chuni_{server}{userid}', user_data['userName']):
                 user_data['userName'] = ''
             return f"绑定成功！记得撤回卡号哦\n游戏昵称：{user_data['userName']}\n等级：{user_data['level']}"
     except Exception as e:
