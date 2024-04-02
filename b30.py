@@ -670,6 +670,7 @@ database_list = {
         'rin': 'rinbind',
         'mobi': 'mobibind',
         'ring': 'ringbind',
+        'shiro': 'shirobind',
     }
 # database_list硬编码防止注入。%s会导致表名被加入引号报错
 

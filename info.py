@@ -320,7 +320,7 @@ def add_background_to_rank_pic(rank_pic, background_path):
     return cropped_background
 
 
-def gen_level_rank(diff, userid=None, server='aqua'):
+def gen_level_rank(diff, userid=None, server='aqua', qqnum='未知'):
     grouped_dict = get_diff_music(diff)
     if diff.isdigit() or '+' in diff:
         if grouped_dict == {}:
@@ -352,7 +352,7 @@ def gen_level_rank(diff, userid=None, server='aqua'):
         logo = logo.resize((int(logo.size[0] / 1.5), int(logo.size[1] / 1.5)))
         if userid is not None:
             rank_pic.paste(logo, (930, 80), logo.split()[3])
-            user_nameplate = get_user_info_pic(user_full_data, user_team)
+            user_nameplate = get_user_info_pic(user_full_data, user_team ,qqnum, userid, server)
             rank_pic.paste(user_nameplate, (175, 60), user_nameplate.split()[3])
             
         else:
@@ -373,11 +373,11 @@ def gen_level_rank(diff, userid=None, server='aqua'):
         raise ChuLevelError('请正确输入，仅支持14，14+这种格式的难度')
 
 
-def chu_level_rank(diff, userid=None, server='aqua'):
+def chu_level_rank(diff, userid=None, server='aqua', qqnum='未知'):
     if userid is None:
         if os.path.exists(f'piccache/chu/{diff}.jpg'):
             return f'piccache/chu/{diff}.jpg'
         else:
             return gen_level_rank(diff)
     else:
-        return gen_level_rank(diff, userid, server)
+        return gen_level_rank(diff, userid, server, qqnum=qqnum)
