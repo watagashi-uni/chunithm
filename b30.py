@@ -10,6 +10,7 @@ import ujson as json
 import traceback
 from PIL import Image, ImageFont, ImageDraw, ImageFilter
 from modules.config import env
+from modules.sk import recordname
 
 
 server_name = {
@@ -201,7 +202,7 @@ def create_rating_image(number):
     return result_image
 
 
-def get_user_info_pic(user_full_data, team_data):
+def get_user_info_pic(user_full_data, team_data, qqnum, userid, server):
     img = get_chuni_asset(f'namePlate/CHU_UI_NamePlate_{int(user_full_data["userData"]["nameplateId"]):08d}.png')
     if img is None:
         img = get_chuni_asset('namePlate/CHU_UI_NamePlate_00000001.png')
@@ -223,6 +224,8 @@ def get_user_info_pic(user_full_data, team_data):
     draw = ImageDraw.Draw(img)
     font_style = ImageFont.truetype("fonts/SourceHanSansCN-Bold.otf", 30)
     draw.text((184, 100), str(user_full_data["userData"]["level"]), fill=(0, 0, 0), font=font_style)
+    if not recordname(qqnum, f'chuni_{server}{userid}', user_full_data["userData"]["userName"]):
+        user_full_data["userData"]["userName"] = ''
     font_style = ImageFont.truetype("fonts/ヒラギノ角ゴ ( Hira Kaku) Pro W6.otf", 30)
     draw.text((228, 107), str(user_full_data["userData"]["userName"]), fill=(0, 0, 0), font=font_style)
 
@@ -414,7 +417,7 @@ class BanState(Exception):
         self.msg = msg
 
 
-def chunib30(userid, server='aqua', version='2.15'):
+def chunib30(userid, server='aqua', version='2.15', qqnum='未知'):
     user_full_data = get_user_full_data(userid, server)
     if user_full_data['userData']['lastRomVersion'].startswith('2.2'):
         version = '2.20'
@@ -479,7 +482,7 @@ def chunib30(userid, server='aqua', version='2.15'):
     r, g, b, mask = rankimg.split()
     pic.paste(rankimg, (712, 118), mask)
 
-    user_nameplate = get_user_info_pic(user_full_data, user_team)
+    user_nameplate = get_user_info_pic(user_full_data, user_team, qqnum, userid, server)
     pic.paste(user_nameplate, (57, 55), user_nameplate.split()[3])
 
     text = 'Player Rom Version: ' + user_full_data['userData']['lastRomVersion'] + '\n'
@@ -698,6 +701,9 @@ def bind_aimeid(qqnum, aimeid, server='aqua'):
             val = (str(qqnum), str(userid), str(userid))
             cursor.execute(sql, val)
             conn.commit()
+
+            if not recordname(qqnum, f'chuni_{server}{aimeid}', user_data['userName']):
+                user_data['userName'] = ''
             return f"绑定成功！记得撤回卡号哦\n游戏昵称：{user_data['userName']}\n等级：{user_data['level']}"
     except Exception as e:
         traceback.print_exc()
