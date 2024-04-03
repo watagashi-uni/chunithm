@@ -6,7 +6,7 @@ from modules.mysql_config import *
 from modules.pjskinfo import get_match_rate_sqrt, isSingleEmoji, string_similar, writelog
 import Levenshtein as lev
 import math
-
+from modules.sk import recordname
 
 def chu_matchname(alias):
     match = {'musicid': 0, "match": 0, 'name': ''}
@@ -68,7 +68,7 @@ def chu_aliastomusicid(alias):
     return chu_matchname(alias)
 
 
-def chuset(newalias, oldalias, qqnum, username, qun):
+def chuset(newalias, oldalias, qqnum, username, qun, is_hide=False):
     newalias = newalias.strip()
     if isSingleEmoji(newalias):
         return "由于数据库排序规则原因，不支持单个emoji字符作为歌曲昵称"
@@ -76,7 +76,8 @@ def chuset(newalias, oldalias, qqnum, username, qun):
     if resp['musicid'] == 0:
         return "找不到你要设置的歌曲，请使用正确格式：chuset新昵称to旧昵称"
     musicid = resp['musicid']
-
+    if not recordname(qqnum, 'chuset', newalias):
+        return "该昵称可能不合规，如果判断错误请联系bot主添加"
     mydb = pymysql.connect(host=host, port=port, user='pjsk', password=password,
                            database='pjsk', charset='utf8mb4')
     mycursor = mydb.cursor()
@@ -98,7 +99,10 @@ def chuset(newalias, oldalias, qqnum, username, qun):
     timeArray = time.localtime(time.time())
     Time = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
     writelog(f'[CHUNITHM][{Time}] {qun} {username}({qqnum}): {newalias}->{title}')
-    return f"设置成功！{newalias}->{title}\n已记录bot文档中公开的实时日志，设置不合适的昵称将会被拉黑"
+    if is_hide:
+        return f"设置成功！\n已记录bot文档中公开的实时日志，设置不合适的昵称将会被拉黑"
+    else:
+        return f"设置成功！{newalias}->{title}\n已记录bot文档中公开的实时日志，设置不合适的昵称将会被拉黑"
 
 
 def chudel(alias, qqnum, username, qun):
