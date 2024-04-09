@@ -514,15 +514,16 @@ def chunib30(userid, server='aqua', version='2.15', qqnum='未知'):
     uuid_str = str(uuid.uuid4())
     pic.save(f'piccache/{uuid_str}b30.jpg')
 
-    banState = 0
-    try:
-        banState = int(get_user_data(userid, server)['banState'])
-    except:
-        pass
-    if banState == 1:
-        raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触する疑いのあるデータが存在しています\n今後このようなデータが存在する場合\n本Aimeは使用できなくなりますのでご注意ください", f'piccache/{uuid_str}b30.jpg')
-    elif banState == 2:
-        raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触するユーザーデータが存在しているため\n本Aimeは使用できません", f'piccache/{uuid_str}b30.jpg')
+    if server == 'lin':
+        banState = 0
+        try:
+            banState = int(get_user_data(userid, server)['banState'])
+        except:
+            pass
+        if banState == 1:
+            raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触する疑いのあるデータが存在しています\n今後このようなデータが存在する場合\n本Aimeは使用できなくなりますのでご注意ください", f'piccache/{uuid_str}b30.jpg')
+        elif banState == 2:
+            raise BanState("本Aimeに紐づくユーザーデータに弊社規約に抵触するユーザーデータが存在しているため\n本Aimeは使用できません", f'piccache/{uuid_str}b30.jpg')
 
     # pic.show()
     return f'piccache/{uuid_str}b30.jpg'
@@ -694,8 +695,7 @@ def bind_aimeid(qqnum, aimeid, server='aqua'):
     userid = str(aime_to_userid(aimeid, server))
     if userid is None:
         return '卡号不存在'
-    user_data = get_user_data(userid, server)
-    print(user_data)
+    user_data = get_user_full_data(userid, server)
     conn = get_connection()
 
     try:
@@ -705,9 +705,9 @@ def bind_aimeid(qqnum, aimeid, server='aqua'):
             cursor.execute(sql, val)
             conn.commit()
 
-            if not recordname(qqnum, f'chuni_{server}{userid}', user_data['userName']):
-                user_data['userName'] = ''
-            return f"绑定成功！记得撤回卡号哦\n游戏昵称：{user_data['userName']}\n等级：{user_data['level']}"
+            if not recordname(qqnum, f'chuni_{server}{userid}', user_data['userData']['userName']):
+                user_data['userData']['userName'] = ''
+            return f"绑定成功！记得撤回卡号哦\n游戏昵称：{user_data['userData']['userName']}\n等级：{user_data['userData']['level']}"
     except Exception as e:
         traceback.print_exc()
         return "绑定失败！"
