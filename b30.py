@@ -543,8 +543,12 @@ def b30single(single_data, version):
     else:
         pic = Image.new("RGB", (620, 240), (255, 255, 255))
     
-    jacket = Image.open(f'chunithm/jackets/{single_data["jacketFile"]}')
-    jacket = jacket.resize((186, 186))
+    try:
+        jacket = Image.open(f'chunithm/jackets/{single_data["jacketFile"]}')
+        jacket = jacket.resize((186, 186))
+    except:
+        jacket = Image.open(f'chunithm/jackets/CHU_UI_Jacket_0081.dds')
+        jacket = jacket.resize((186, 186))
     pic.paste(jacket, (32, 28))
 
     draw = ImageDraw.Draw(pic)
