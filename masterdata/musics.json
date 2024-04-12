@@ -1,5 +1,21 @@
 [
     {
+        "name": "INTERNET YAMERO",
+        "id": "2503",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "3e6be4cb3e4b7322.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 10.3,
+            "master": 13.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "不可解",
         "id": "2500",
         "genreNames": [
@@ -6464,6 +6480,22 @@
         }
     },
     {
+        "name": "インターネットサバイバー",
+        "id": "2523",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "736937d5a629151b.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.2,
+            "master": 13.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "ユックリ feat.餅千歳",
         "id": "2524",
         "genreNames": [
@@ -11968,6 +12000,38 @@
         }
     },
     {
+        "name": "Burn it All",
+        "id": "2542",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "b98972fbfd78a11d.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.6,
+            "master": 14.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Stronghold LandEater",
+        "id": "2543",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "b5af61d989302ad5.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.1,
+            "master": 13.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "Change Our MIRAI！",
         "id": "145",
         "genreNames": [
@@ -14524,6 +14588,22 @@
             "expert": 12.8,
             "master": 14.9,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "四月の雨",
+        "id": "2560",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "0eb1af09bef4c16a.jpg",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 5.0,
+            "expert": 11.5,
+            "master": 13.9,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -21292,6 +21372,54 @@
             "expert": 10.3,
             "master": 13.7,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "セガサターン起動音[H.][Remix]",
+        "id": "8270",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "0976666576bc8229.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "タイムカプセル",
+        "id": "8271",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "2391e136942afe31.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ガチ恋ラビリンス",
+        "id": "8272",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "a1cc8ab3ed3db183.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
