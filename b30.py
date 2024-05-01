@@ -699,7 +699,10 @@ def bind_aimeid(qqnum, aimeid, server='aqua'):
     userid = str(aime_to_userid(aimeid, server))
     if userid is None:
         return '卡号不存在'
-    user_data = get_user_full_data(userid, server)
+    try:
+        user_data = get_user_full_data(userid, server)
+    except ValueError:
+        return '你至少先打把中二再绑定吧'
     conn = get_connection()
 
     try:
