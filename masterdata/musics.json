@@ -10427,7 +10427,7 @@
             "advanced": 7.0,
             "expert": 10.7,
             "master": 14.4,
-            "ultima": 0,
+            "ultima": 14.9,
             "world's end": 0.0
         }
     },
@@ -21372,6 +21372,54 @@
             "expert": 10.3,
             "master": 13.7,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "crazy (about you)",
+        "id": "2580",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "4b9bee0569c335cc.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 11.7,
+            "master": 14.1,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Dèfandour",
+        "id": "2581",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "3408ab7d50ad67c1.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 12.1,
+            "master": 14.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Ultimate Force",
+        "id": "2582",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "2582.jpg",
+        "difficulties": {
+            "basic": 5.0,
+            "advanced": 10.0,
+            "expert": 14.5,
+            "master": 15.4,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
