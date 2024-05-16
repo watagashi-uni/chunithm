@@ -1,5 +1,21 @@
 [
     {
+        "name": "とまどい→レシピ",
+        "id": "2504",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "38f77941c4eb6fc7.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.0,
+            "master": 11.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "INTERNET YAMERO",
         "id": "2503",
         "genreNames": [
@@ -2300,6 +2316,54 @@
             "expert": 8.5,
             "master": 14.5,
             "ultima": 14.8,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "アンダーキッズ",
+        "id": "2520",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "874cf61ea3abd287.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 7.0,
+            "expert": 9.0,
+            "master": 13.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ヒアソビ",
+        "id": "2522",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "23713cd79a45b799.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 10.9,
+            "master": 13.6,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "flos",
+        "id": "2521",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "f2f1015a4a7ee4ed.jpg",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 5.0,
+            "expert": 8.5,
+            "master": 12.1,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -6219,7 +6283,7 @@
             "advanced": 7.0,
             "expert": 10.8,
             "master": 13.8,
-            "ultima": 0,
+            "ultima": 14.7,
             "world's end": 0.0
         }
     },
@@ -12860,6 +12924,22 @@
             "expert": 9.0,
             "master": 13.1,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ALL I WANNA DO",
+        "id": "2552",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "167d4a6409c6b7dd.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.6,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -21413,7 +21493,7 @@
         "genreNames": [
             "ORIGINAL"
         ],
-        "jaketFile": "2582.jpg",
+        "jaketFile": "40ff64380c4b4833.jpg",
         "difficulties": {
             "basic": 5.0,
             "advanced": 10.0,
