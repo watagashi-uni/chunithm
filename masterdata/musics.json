@@ -9792,6 +9792,86 @@
         }
     },
     {
+        "name": "MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
+        "id": "2544",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "ea06b902af001640.jpg",
+        "difficulties": {
+            "basic": 5.0,
+            "advanced": 8.5,
+            "expert": 12.1,
+            "master": 14.5,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Rush B",
+        "id": "2545",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "9bc2905b797cd4d0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.8,
+            "master": 13.4,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "それはもうらぶちゅ",
+        "id": "2546",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "3d53c7b59b5db258.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.9,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Cthugha",
+        "id": "2547",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "372c558463ccc40c.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.0,
+            "expert": 12.3,
+            "master": 14.7,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "XING",
+        "id": "2548",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "bcc06ce83c3e6dfb.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 10.7,
+            "master": 13.7,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "ΩΩPARTS",
         "id": "2533",
         "genreNames": [
@@ -14688,6 +14768,38 @@
         }
     },
     {
+        "name": "Beautiful Future",
+        "id": "2564",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "2374b52c2d685995.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 12.0,
+            "master": 13.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Alcyone",
+        "id": "2565",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "37649fabc6ab8582.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 11.9,
+            "master": 14.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "STARTLINER",
         "id": "802",
         "genreNames": [
@@ -14700,6 +14812,22 @@
             "expert": 7.5,
             "master": 10.4,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Jump!! Jump!! Jump!!",
+        "id": "2561",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "5b457a6e66fcbdc9.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.7,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -14924,6 +15052,22 @@
             "expert": 8.5,
             "master": 12.3,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Prominence",
+        "id": "2562",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "1835f7b870f41b3d.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.0,
+            "expert": 11.2,
+            "master": 14.4,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -15884,6 +16028,22 @@
             "expert": 13.2,
             "master": 14.8,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Stargazing Dreamer",
+        "id": "2563",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "7afaeb369b97d412.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.5,
+            "expert": 12.3,
+            "master": 14.7,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
