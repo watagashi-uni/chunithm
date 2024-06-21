@@ -93,34 +93,30 @@ def song_details(alias):
     original_difficulties = difficulties.copy()  # 复制原始难度
     modified = False  # 标记是否有修改
 
-    # lmn plus稼动后使用
-    # for single in difficulties:
-    #     try:
-    #         new_value = lmn_to_lmnp.get((int(song_id), reverse_difficulty_mapping[single]))
-    #         if new_value is not None:
-    #             difficulties[single] = new_value
-    #             modified = True
-    #     except KeyError:
-    #         pass
+    for single in difficulties:
+        try:
+            new_value = lmn_to_lmnp.get((int(song_id), reverse_difficulty_mapping[single]))
+            if new_value is not None:
+                difficulties[single] = new_value
+                modified = True
+        except KeyError:
+            pass
 
     # 构建原始难度字符串
     original_difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{original_difficulties['expert']}/{original_difficulties['master']}"
     if 'ultima' in original_difficulties and original_difficulties['ultima'] > 0:
         original_difficulties_str += f"/{original_difficulties['ultima']}"
 
-    # 构建修改后的难度字符串 lmn plus稼动后使用
-    # difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{difficulties['expert']}/{difficulties['master']}"
-    # if 'ultima' in difficulties and difficulties['ultima'] > 0:
-    #     difficulties_str += f"/{difficulties['ultima']}"
+    # 构建修改后的难度字符串
+    difficulties_str = f"{song_music['lev_bas']}/{song_music['lev_adv']}/{difficulties['expert']}/{difficulties['master']}"
+    if 'ultima' in difficulties and difficulties['ultima'] > 0:
+        difficulties_str += f"/{difficulties['ultima']}"
 
-    # 根据是否有修改，构建最终输出字符串 lmn plus稼动后使用
-    # if modified:
-    #     final_str = f"{original_difficulties_str} (Luminous)\n{difficulties_str} (Luminous PLUS)"
-    # else:
-    #     final_str = original_difficulties_str
-
-    # lmn plus稼动后使用
-    final_str = original_difficulties_str
+    # 根据是否有修改，构建最终输出字符串
+    if modified:
+        final_str = f"{original_difficulties_str} (Luminous)\n{difficulties_str} (Luminous PLUS)"
+    else:
+        final_str = original_difficulties_str
 
     if song_music['we_kanji'] and song_music['we_star']:
         title += f"【{song_music['we_kanji']}】"
@@ -197,9 +193,7 @@ def get_diff_music(difficult):
     # 更新 result，添加难度值
     result_with_difficulty = []
     for (music_id, difficulty_number) in result:
-        # lmn plus稼动后使用
-        # if (int(music_id), difficulty_number) in lmn_to_lmnp:
-        if False:
+        if (int(music_id), difficulty_number) in lmn_to_lmnp:
             difficulty_value = lmn_to_lmnp[(int(music_id), difficulty_number)]
         else:
             difficulty_value = difficulty_value_dict.get((music_id, difficulty_number), 0)
@@ -348,18 +342,18 @@ def gen_level_rank(diff, userid=None, server='aqua', qqnum='未知'):
                 font=font_style, align='right')
         rank_pic = rank_pic.crop((0, 0, 1300, y + 100))
         
-        logo = Image.open('pics/top_main_logo.png')
+        logo = Image.open('pics/top_main_logo_lmnp.png')
         logo = logo.resize((int(logo.size[0] / 1.5), int(logo.size[1] / 1.5)))
         if userid is not None:
-            rank_pic.paste(logo, (930, 80), logo.split()[3])
+            rank_pic.paste(logo, (930, 60))
             user_nameplate = get_user_info_pic(user_full_data, user_team ,qqnum, userid, server)
             rank_pic.paste(user_nameplate, (175, 60), user_nameplate.split()[3])
             
         else:
-            rank_pic.paste(logo, (530, 80), logo.split()[3])
-        background_path = 'pics/lmn.png'
+            rank_pic.paste(logo, (530, 60))
+        background_path = 'pics/lmnp.png'
         result_image = add_background_to_rank_pic(rank_pic, background_path)
-        result_image.convert('RGB')
+        result_image = result_image.convert('RGB')
         
         if userid is None:
             result_image.save(f'piccache/chu/{diff}.jpg')

@@ -1,5 +1,69 @@
 [
     {
+        "name": "勇者",
+        "id": "2584",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "a1b3309dc43d04d5.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 13.1,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "カオスが極まる",
+        "id": "2585",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "b77408768afa58d4.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "唱",
+        "id": "2586",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "2274030518738fc8.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "美少女無罪♡パイレーツ",
+        "id": "2587",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "6d85a62c5e9dcae8.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "とまどい→レシピ",
         "id": "2504",
         "genreNames": [
@@ -1216,70 +1280,6 @@
         }
     },
     {
-        "name": "Realize",
-        "id": "2100",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "0249b8944105c8b3.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 10.0,
-            "master": 13.3,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Long shot",
-        "id": "2136",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "1d308685d00b32d6.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 9.5,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "FLARE",
-        "id": "2107",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "5a572b327f9903a5.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.5,
-            "master": 12.6,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "天空カフェテリア",
-        "id": "2095",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "203fbc68368b3faa.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 8.5,
-            "master": 12.2,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ヒバリ",
         "id": "2096",
         "genreNames": [
@@ -1328,118 +1328,6 @@
         }
     },
     {
-        "name": "圧　倒　的　存　在　感",
-        "id": "2139",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "30fa1985426c6197.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 10.0,
-            "master": 13.0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "なだめスかし Negotiation（TVsize）",
-        "id": "2123",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "17de51eed9194d3a.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.5,
-            "master": 12.8,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Lost Princess",
-        "id": "2112",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "fb9c74ded8734e84.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 11.7,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Mirage Game",
-        "id": "2113",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "e451a2fbb6717ef1.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "永遠のAria",
-        "id": "2141",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "d51ad05982838109.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 8.5,
-            "master": 12.7,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "キズナミュージック♪",
-        "id": "2075",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "e610fb21d4f76941.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "FIRE BIRD",
-        "id": "2076",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "ca5aa0c10dd79b13.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.5,
-            "master": 13.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "夜に駆ける",
         "id": "2010",
         "genreNames": [
@@ -1451,214 +1339,6 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 11.8,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "香水",
-        "id": "2006",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "bed1e1a45185a438.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 4.0,
-            "expert": 7.0,
-            "master": 10.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "猫 ～THE FIRST TAKE ver.～",
-        "id": "2007",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "5b9aba986cfbb198.jpg",
-        "difficulties": {
-            "basic": 1.0,
-            "advanced": 4.0,
-            "expert": 8.0,
-            "master": 11.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "インフェルノ",
-        "id": "2008",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "48e0e341da2cdc7d.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.5,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "残酷な天使のテーゼ",
-        "id": "2009",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "e3a6d720dd84af58.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 8.0,
-            "master": 11.3,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "紅",
-        "id": "2012",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "38688fb478269912.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 7.0,
-            "expert": 11.3,
-            "master": 14.6,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "うまぴょい伝説",
-        "id": "2142",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "886b18df2812e35c.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 12.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "GO! GO! MANIAC",
-        "id": "2013",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "30f81c9ab7032bdd.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 10.0,
-            "master": 13.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "エクストラ・マジック・アワー",
-        "id": "2015",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "de4999367cd5a4c3.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 8.5,
-            "master": 12.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "名前のない怪物",
-        "id": "2016",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "d7cdb597c60c5395.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.0,
-            "master": 12.6,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "うっせぇわ",
-        "id": "2143",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "afd7a2a367142f74.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.9,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "廻廻奇譚",
-        "id": "2014",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "a4a119b5e1c3892e.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.0,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "I believe what you said",
-        "id": "2078",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "36c8c79a4dff4771.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 11.8,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "No.1",
-        "id": "2000",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "9541389b71c5e06a.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.0,
-            "master": 11.7,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -2256,22 +1936,6 @@
         }
     },
     {
-        "name": "Daydream café",
-        "id": "343",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "e21129db8b503610.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 8.0,
-            "master": 11.4,
-            "ultima": 12.7,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "鳥の詩",
         "id": "37",
         "genreNames": [
@@ -2316,6 +1980,54 @@
             "expert": 8.5,
             "master": 14.5,
             "ultima": 14.8,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ÅMARA (大未来電脳)",
+        "id": "2589",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "c89005d17d7b7fe0.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.0,
+            "expert": 13.3,
+            "master": 14.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "デビルじゃないもん",
+        "id": "2671",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "981267d900491f1e.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "寝起きヤシの木",
+        "id": "2591",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "2fd2f32404ad09cb.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.8,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -3600,38 +3312,6 @@
         }
     },
     {
-        "name": "心予報",
-        "id": "2020",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "02492db7decaffd3.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 8.5,
-            "master": 12.8,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "拝啓、桜舞い散るこの日に",
-        "id": "2021",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "207d549fee21638d.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 12.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "セカイ",
         "id": "2022",
         "genreNames": [
@@ -3723,22 +3403,6 @@
             "advanced": 6.0,
             "expert": 8.5,
             "master": 12.0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "深海のリトルクライ feat. 土岐麻子",
-        "id": "2027",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "c715660b39aaba46.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 13.6,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -4752,22 +4416,6 @@
         }
     },
     {
-        "name": "おちゃめ機能",
-        "id": "658",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "ce378b2efae567ec.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 8.0,
-            "master": 12.6,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ブリキノダンス",
         "id": "654",
         "genreNames": [
@@ -4827,22 +4475,6 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 11.7,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "シャルル",
-        "id": "660",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "0bbd22cb8d4513a2.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 8.0,
-            "master": 11.6,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -5994,8 +5626,8 @@
             "basic": 3.0,
             "advanced": 6.0,
             "expert": 9.5,
-            "master": 13.0,
-            "ultima": 0,
+            "master": 12.6,
+            "ultima": 14.0,
             "world's end": 0.0
         }
     },
@@ -6288,22 +5920,6 @@
         }
     },
     {
-        "name": "FREELY TOMORROW",
-        "id": "156",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "b33923bd4e6e5609.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 4.0,
-            "expert": 8.0,
-            "master": 11.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ギガンティックO.T.N",
         "id": "157",
         "genreNames": [
@@ -6540,6 +6156,22 @@
             "expert": 9.0,
             "master": 13.0,
             "ultima": 14.2,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "マツヨイナイトバグ",
+        "id": "2592",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "b49322bf2826a9ec.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.0,
+            "master": 14.3,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -9792,6 +9424,22 @@
         }
     },
     {
+        "name": "Rrhar'il",
+        "id": "2593",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "49e97ab81aaf16ff.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.5,
+            "expert": 12.3,
+            "master": 14.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "MuseDashを作っているPeroPeroGamesさんが倒産しちゃったよ～",
         "id": "2544",
         "genreNames": [
@@ -9883,22 +9531,6 @@
             "advanced": 8.0,
             "expert": 13.6,
             "master": 14.9,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "]-[|/34<#!",
-        "id": "2039",
-        "genreNames": [
-            "VARIETY"
-        ],
-        "jaketFile": "77bb3ca5929cb8f6.jpg",
-        "difficulties": {
-            "basic": 4.0,
-            "advanced": 8.5,
-            "expert": 14.0,
-            "master": 14.8,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -11792,6 +11424,22 @@
         }
     },
     {
+        "name": "ヒュブリスの頂に聳えるのは",
+        "id": "2594",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "46a06ee1d4fee2ac.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 12.5,
+            "master": 14.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "Reach For The Stars",
         "id": "6",
         "genreNames": [
@@ -12651,7 +12299,7 @@
             "advanced": 5.0,
             "expert": 10.0,
             "master": 12.1,
-            "ultima": 0,
+            "ultima": 13.6,
             "world's end": 0.0
         }
     },
@@ -13019,6 +12667,22 @@
             "advanced": 6.0,
             "expert": 9.5,
             "master": 12.6,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "The Greatest Night",
+        "id": "2596",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "cb8c19677a5f89f9.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.5,
+            "master": 12.9,
             "ultima": 0.0,
             "world's end": 0.0
         }
@@ -13690,8 +13354,8 @@
             "basic": 3.0,
             "advanced": 7.0,
             "expert": 9.5,
-            "master": 12.6,
-            "ultima": 0,
+            "master": 13.0,
+            "ultima": 14.1,
             "world's end": 0.0
         }
     },
@@ -14187,7 +13851,7 @@
             "advanced": 8.0,
             "expert": 11.3,
             "master": 14.0,
-            "ultima": 0,
+            "ultima": 14.7,
             "world's end": 0.0
         }
     },
@@ -14800,6 +14464,22 @@
         }
     },
     {
+        "name": "HECATONCHEIR",
+        "id": "2598",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "27385d0203ddabc0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.8,
+            "master": 14.1,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "STARTLINER",
         "id": "802",
         "genreNames": [
@@ -14912,6 +14592,22 @@
         }
     },
     {
+        "name": "夏宵スターマイン",
+        "id": "2599",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "c0d524f3846ed0e2.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "Iudicium “Apocalypsis Mix”",
         "id": "2134",
         "genreNames": [
@@ -15019,6 +14715,22 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.1,
+            "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Let's Starry Party！",
+        "id": "2309",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "5326c1c936cde91e.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 10.3,
+            "master": 12.4,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -15179,22 +14891,6 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Let's Starry Party！",
-        "id": "2309",
-        "genreNames": [
-            "ゲキマイ"
-        ],
-        "jaketFile": "5326c1c936cde91e.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 6.0,
-            "expert": 10.3,
-            "master": 12.4,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -16048,6 +15744,22 @@
         }
     },
     {
+        "name": "其のエメラルドを見よ",
+        "id": "2600",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "e58cfa03ae9c14ce.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.5,
+            "expert": 12.1,
+            "master": 14.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "GEMINI -C-",
         "id": "202",
         "genreNames": [
@@ -16523,7 +16235,7 @@
             "advanced": 5.0,
             "expert": 8.0,
             "master": 12.0,
-            "ultima": 0,
+            "ultima": 13.2,
             "world's end": 0.0
         }
     },
@@ -21664,6 +21376,150 @@
         }
     },
     {
+        "name": "バッドトリッパー",
+        "id": "2601",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "b5e3b0b18571e575.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 8.0,
+            "master": 12.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "幻想ロードオブキング",
+        "id": "2602",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "3efa87953ad18f1c.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 7.5,
+            "expert": 11.9,
+            "master": 14.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "イーヴィルガール",
+        "id": "2603",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "b03747cba3140e03.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.4,
+            "master": 14.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "わたしはオッセルヴァトリーチェ！",
+        "id": "2604",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "fdf12f0675887aa0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.1,
+            "master": 13.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "コメクエスト",
+        "id": "2636",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "98113879afe275be.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.6,
+            "master": 13.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "リ・フィクション・O",
+        "id": "2606",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "2c4db7af555e44f4.jpg",
+        "difficulties": {
+            "basic": 5.0,
+            "advanced": 9.5,
+            "expert": 13.6,
+            "master": 15.1,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "強風オールバック",
+        "id": "8283",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "78290c2cb56f2192.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "強風オールバック",
+        "id": "8284",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "9e9101ae104e1391.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "強風オールバック",
+        "id": "8285",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "6d4d6af0f1f2320a.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "セガサターン起動音[H.][Remix]",
         "id": "8270",
         "genreNames": [
@@ -21712,60 +21568,12 @@
         }
     },
     {
-        "name": "【ゆっくり実況】ゆっくりペンギンが怒槌をやってみた！ Part1",
-        "id": "8273",
-        "genreNames": [
-            "ORIGINAL"
-        ],
-        "jaketFile": "bcd2cd5ff570e8bb.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "ラストバトル ～サシュウとの戦い～",
-        "id": "8274",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "2231e11bbb845c19.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "シル・ヴ・プレジデント",
         "id": "8275",
         "genreNames": [
             "POPS & ANIME"
         ],
         "jaketFile": "08387606c829a936.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "うまぴょい伝説",
-        "id": "8276",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "4e20abe3e2d1b084.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -21798,22 +21606,6 @@
             "niconico"
         ],
         "jaketFile": "467b16ec81ebdcf1.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "フリーフォール",
-        "id": "8279",
-        "genreNames": [
-            "VARIETY"
-        ],
-        "jaketFile": "497d4f2cfba41251.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -21952,22 +21744,6 @@
         }
     },
     {
-        "name": "なにやってもうまくいかない",
-        "id": "8262",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "c5f84b39d246d54b.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "Aleph-0",
         "id": "8263",
         "genreNames": [
@@ -21984,60 +21760,12 @@
         }
     },
     {
-        "name": "4月1日でございました",
-        "id": "8260",
-        "genreNames": [
-            "ORIGINAL"
-        ],
-        "jaketFile": "cb494e0e94ede82c.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "【3Dサウンド】小夜ちゃんが秘密裏に手に入れたヤベエ機材でヤベエ音を録る話【イヤホン推奨】（EDテーマ：A.S.S.S.M.R.）",
-        "id": "8259",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "7c2112df4bfbf10f.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ホーリーサンバランド",
         "id": "8258",
         "genreNames": [
             "VARIETY"
         ],
         "jaketFile": "a7c5e63697e17a4a.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Satellite System ft.Diana Chiaki",
-        "id": "8257",
-        "genreNames": [
-            "VARIETY"
-        ],
-        "jaketFile": "ec4ad66f221651c5.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22144,44 +21872,12 @@
         }
     },
     {
-        "name": "FIRE BIRD",
-        "id": "8250",
-        "genreNames": [
-            "POPS & ANIME"
-        ],
-        "jaketFile": "dbadea83d87d02e6.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "Love & Justice",
         "id": "8242",
         "genreNames": [
             "VARIETY"
         ],
         "jaketFile": "422dbef57156e09f.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Aragami",
-        "id": "8241",
-        "genreNames": [
-            "VARIETY"
-        ],
-        "jaketFile": "3932e97b0757b6ae.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22224,22 +21920,6 @@
         }
     },
     {
-        "name": "宙の隣",
-        "id": "8233",
-        "genreNames": [
-            "ORIGINAL"
-        ],
-        "jaketFile": "a896471da13b3fc8.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "Viyella's Tears",
         "id": "8215",
         "genreNames": [
@@ -22262,22 +21942,6 @@
             "ORIGINAL"
         ],
         "jaketFile": "35aed0e86bb61481.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "やらなきゃいけないことばかり",
-        "id": "8219",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "97df89f8b43d6233.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22320,22 +21984,6 @@
         }
     },
     {
-        "name": "Trrricksters!!",
-        "id": "8228",
-        "genreNames": [
-            "ORIGINAL"
-        ],
-        "jaketFile": "7615de9e9eced518.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "董卓討つべし",
         "id": "8230",
         "genreNames": [
@@ -22358,38 +22006,6 @@
             "niconico"
         ],
         "jaketFile": "a1ce1238fb07d087.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "恋はりんりん☆あーりんベル",
-        "id": "8206",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "fa7f503d763cbf2e.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Memory of Beach",
-        "id": "8204",
-        "genreNames": [
-            "VARIETY"
-        ],
-        "jaketFile": "2c130ba076519882.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22448,54 +22064,6 @@
         }
     },
     {
-        "name": "【3Dサウンド】小野ちゃんが真夏のビーチでスイカを叩き割る話【イヤホン推奨】",
-        "id": "8180",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "fa6efefb66c38dd2.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "conflict(斉唱)",
-        "id": "8181",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "e69344eb5159304d.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "星の器～STAR OF ANDROMEDA",
-        "id": "8176",
-        "genreNames": [
-            "東方Project"
-        ],
-        "jaketFile": "b96e06ff2c7cdb83.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "STARTLINER",
         "id": "8168",
         "genreNames": [
@@ -22534,22 +22102,6 @@
             "VARIETY"
         ],
         "jaketFile": "a694a0323009a57c.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "なるがちゃんなぎにいよいよえれー目にあわされる話",
-        "id": "8146",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "56f3a98028b88321.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22704,22 +22256,6 @@
         }
     },
     {
-        "name": "イロドリミドリ杯花映塚全一決定戦公式テーマソング『ウソテイ』",
-        "id": "8116",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "43bd6cbc31e4c02c.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "AMAZING MIGHTYYYY!!!!",
         "id": "8110",
         "genreNames": [
@@ -22758,22 +22294,6 @@
             "niconico"
         ],
         "jaketFile": "82bee9dfce16e9fb.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "あねぺったん",
-        "id": "8078",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "a6889b8a729210be.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
@@ -22902,22 +22422,6 @@
             "VARIETY"
         ],
         "jaketFile": "cbf397f330e040e5.jpg",
-        "difficulties": {
-            "basic": 0.0,
-            "advanced": 0.0,
-            "expert": 0,
-            "master": 0,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "Help me, あーりん！",
-        "id": "8025",
-        "genreNames": [
-            "イロドリミドリ"
-        ],
-        "jaketFile": "c1ff8df1757fedf4.jpg",
         "difficulties": {
             "basic": 0.0,
             "advanced": 0.0,
