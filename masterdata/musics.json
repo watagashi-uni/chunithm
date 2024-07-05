@@ -1984,6 +1984,86 @@
         }
     },
     {
+        "name": "1000年生きてる",
+        "id": "2657",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "4574d2e1da81cc04.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "熱異常",
+        "id": "2658",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "ba8edfd987fa6bfb.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.8,
+            "master": 14.2,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "アプリコット",
+        "id": "2659",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "31f717023ff9959b.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "おくすり飲んで寝よう",
+        "id": "2610",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "e4ef530e84d34e1a.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.0,
+            "master": 12.6,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "匿名M",
+        "id": "2611",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "64720792e35377e7.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 13.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "ÅMARA (大未来電脳)",
         "id": "2589",
         "genreNames": [
@@ -5626,7 +5706,7 @@
             "basic": 3.0,
             "advanced": 6.0,
             "expert": 9.5,
-            "master": 12.6,
+            "master": 13.0,
             "ultima": 14.0,
             "world's end": 0.0
         }
@@ -13354,7 +13434,7 @@
             "basic": 3.0,
             "advanced": 7.0,
             "expert": 9.5,
-            "master": 13.0,
+            "master": 12.6,
             "ultima": 14.1,
             "world's end": 0.0
         }
@@ -14475,7 +14555,7 @@
             "advanced": 7.0,
             "expert": 11.8,
             "master": 14.1,
-            "ultima": 0,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -15755,6 +15835,22 @@
             "advanced": 8.5,
             "expert": 12.1,
             "master": 14.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Stardust:RAY",
+        "id": "2597",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "5291b9916270df6b.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.0,
+            "expert": 13.5,
+            "master": 15.2,
             "ultima": 0.0,
             "world's end": 0.0
         }
