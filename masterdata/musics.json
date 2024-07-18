@@ -2112,22 +2112,6 @@
         }
     },
     {
-        "name": "アンダーキッズ",
-        "id": "2520",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "874cf61ea3abd287.jpg",
-        "difficulties": {
-            "basic": 4.0,
-            "advanced": 7.0,
-            "expert": 9.0,
-            "master": 13.5,
-            "ultima": 0.0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ヒアソビ",
         "id": "2522",
         "genreNames": [
@@ -2427,22 +2411,6 @@
             "advanced": 7.5,
             "expert": 10.1,
             "master": 13.9,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "いつかオトナになれるといいね。",
-        "id": "2447",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "6a434eacba5b55e5.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 12.8,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -3035,54 +3003,6 @@
             "advanced": 5.0,
             "expert": 8.5,
             "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "くらべられっ子",
-        "id": "2211",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "9ee3d19292b57e42.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.5,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "あの世行きのバスに乗ってさらば。",
-        "id": "2212",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "d17eb046ce46d48c.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 9.5,
-            "master": 12.7,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
-        "name": "泥の分際で私だけの大切を奪おうだなんて",
-        "id": "2213",
-        "genreNames": [
-            "niconico"
-        ],
-        "jaketFile": "8cae22dfe88297c9.jpg",
-        "difficulties": {
-            "basic": 3.0,
-            "advanced": 6.0,
-            "expert": 10.0,
-            "master": 13.3,
             "ultima": 0,
             "world's end": 0.0
         }
@@ -14560,6 +14480,22 @@
         }
     },
     {
+        "name": "チューリングの跡",
+        "id": "2620",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "1befde04785db436.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 7.0,
+            "expert": 14.0,
+            "master": 14.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "STARTLINER",
         "id": "802",
         "genreNames": [
@@ -19232,22 +19168,6 @@
         }
     },
     {
-        "name": "テリトリーバトル",
-        "id": "988",
-        "genreNames": [
-            "ORIGINAL"
-        ],
-        "jaketFile": "a1f03d12ebcdc5a7.jpg",
-        "difficulties": {
-            "basic": 2.0,
-            "advanced": 5.0,
-            "expert": 9.0,
-            "master": 12.4,
-            "ultima": 0,
-            "world's end": 0.0
-        }
-    },
-    {
         "name": "ROAD TO DREAM",
         "id": "989",
         "genreNames": [
@@ -21563,6 +21483,86 @@
             "advanced": 9.5,
             "expert": 13.6,
             "master": 15.1,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "DRE4M1N9",
+        "id": "2612",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "f511ef4eb6332d4c.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 11.7,
+            "master": 13.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Overhea[r]t",
+        "id": "2613",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "71f43a522e36878a.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 12.3,
+            "master": 14.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Malleus Maleficarum",
+        "id": "2614",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "5657e6a849aeee90.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 11.8,
+            "master": 14.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Elusive Enforcer",
+        "id": "2615",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "f8e6d1d4debcb5aa.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 12.1,
+            "master": 14.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "黎命に殉ず",
+        "id": "2616",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "582df69cf83a928b.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.0,
+            "expert": 13.6,
+            "master": 14.8,
             "ultima": 0.0,
             "world's end": 0.0
         }
