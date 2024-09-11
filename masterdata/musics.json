@@ -1,5 +1,69 @@
 [
     {
+        "name": "ハッピータイフーン",
+        "id": "2673",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "d7cea0551040d841.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "M.L.V.G",
+        "id": "2674",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "34b5f9c48dbd099d.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.0,
+            "master": 14.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ReCoda",
+        "id": "2618",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "5b6356563af4005e.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "トゥッティ！",
+        "id": "2675",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "2d4fcdec9e2ee004.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 12.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "勇者",
         "id": "2584",
         "genreNames": [
@@ -1835,7 +1899,7 @@
             "advanced": 5.0,
             "expert": 9.5,
             "master": 13.4,
-            "ultima": 0,
+            "ultima": 14.9,
             "world's end": 0.0
         }
     },
@@ -4491,7 +4555,7 @@
             "advanced": 5.0,
             "expert": 9.0,
             "master": 12.1,
-            "ultima": 0,
+            "ultima": 14.0,
             "world's end": 0.0
         }
     },
@@ -6160,6 +6224,38 @@
         }
     },
     {
+        "name": "壊れた人形のマーチ",
+        "id": "2642",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "3dfaedeed4b9055b.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 12.2,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ヒトリシズカ(Arranged: Iceon)",
+        "id": "2643",
+        "genreNames": [
+            "東方Project"
+        ],
+        "jaketFile": "b0a0335625f6390c.jpg",
+        "difficulties": {
+            "basic": 1.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 11.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "マツヨイナイトバグ",
         "id": "2592",
         "genreNames": [
@@ -7611,7 +7707,7 @@
             "advanced": 6.0,
             "expert": 11.7,
             "master": 14.2,
-            "ultima": 0,
+            "ultima": 14.8,
             "world's end": 0.0
         }
     },
@@ -9756,6 +9852,70 @@
             "expert": 13.3,
             "master": 14.5,
             "ultima": 0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "NIGHTWAVE FRAGMENTS",
+        "id": "2621",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "a2d512a63fd1aa38.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 12.0,
+            "master": 14.2,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Joe Fight",
+        "id": "2622",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "d0637d86f17e04f4.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.5,
+            "expert": 12.2,
+            "master": 14.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Poppin' Dream",
+        "id": "2623",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "582e5f0a4132b23c.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.2,
+            "master": 13.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Make Up Your World feat. キョンシーのCiちゃん & らっぷびと",
+        "id": "2624",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "5280813e4cf436b0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.7,
+            "master": 13.3,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -12688,6 +12848,22 @@
         }
     },
     {
+        "name": "Presence",
+        "id": "2619",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "ea81333534c8b307.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 12.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "オーケー？　オーライ！",
         "id": "683",
         "genreNames": [
@@ -14496,6 +14672,22 @@
         }
     },
     {
+        "name": "Latent Kingdom",
+        "id": "2625",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "cbd387d1c13c54aa.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 9.0,
+            "expert": 13.4,
+            "master": 14.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "STARTLINER",
         "id": "802",
         "genreNames": [
@@ -14795,6 +14987,22 @@
             "advanced": 8.0,
             "expert": 11.2,
             "master": 14.4,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Dramatic…?",
+        "id": "2634",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "73fcb499a4352f53.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.2,
+            "master": 14.2,
             "ultima": 0.0,
             "world's end": 0.0
         }
@@ -21563,6 +21771,134 @@
             "advanced": 8.0,
             "expert": 13.6,
             "master": 14.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "X.Y.Z.",
+        "id": "2635",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "5109a21589c3650f.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 9.5,
+            "master": 13.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "優勝Princess♡",
+        "id": "2605",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "2babeeac922560b2.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 13.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "乙女戦士☆あーし。",
+        "id": "2637",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "3516a4767be5cc16.jpg",
+        "difficulties": {
+            "basic": 2.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.7,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "おしゃまなプリンセス",
+        "id": "2638",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "8433e7f13ac4add6.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.4,
+            "master": 14.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ソーシャルワンダーランド",
+        "id": "2639",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "817bd827a6345d92.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.2,
+            "master": 14.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "異星にいこうね",
+        "id": "8286",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "18e494b75322ce94.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "《種子》 ～ Set You Free",
+        "id": "8287",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "c07a6d16901fcb0b.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Elemental Creation",
+        "id": "8288",
+        "genreNames": [
+            "VARIETY"
+        ],
+        "jaketFile": "dcb123094f6a1268.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
             "ultima": 0.0,
             "world's end": 0.0
         }
