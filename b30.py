@@ -159,6 +159,23 @@ lmn_to_lmnp = {
     (2444, 2): 12.5, # Cult future EXP 13.4-12.5
     (851,  3): 12.8, # 《理想》 ～ Cloudland 12.5-12.8
     (53,   3): 13.5, # Teriqma 13.0-13.5
+    (2481, 3): 13.6, # Love Cheat! 13.4-13.6
+    (2094, 3): 13.0, # Limits 12.9-13.0
+    (96,   3): 12.9, # チルノのパーフェクトさんすう教室 12.5-12.9
+    (2500, 3): 12.7, # 不可解 12.4-12.7
+    (2493, 3): 12.7, # マツケンサンバII 12.9-12,7
+    (2556, 2): 12.6, # Mutation EXP 12.8-12.6
+    (2451, 3): 12.5, # スン(マイル)フラワー〜Sun(Mile)Flower 12.0-12.5
+    (2478, 3): 12.0, # 茉子の日常 11.6-12.0
+    (444,  3): 12.0, # エレクトロサチュレイタ 11.7-12.0
+    (2497, 3): 11.9, # アイデン貞貞メルトダウン 12.1-11.9
+    (2483, 3): 11.9, # 未来へ
+    の咆哮 12.0-11.9
+    (2274, 3): 11.9, # クリーパー 12.3-11.9
+    (2467, 2): 11.9, # Regulus EXP 12.1-11.9
+    (2456, 2): 11.8, # Vibes 2k20 EXP 12.0-11.8
+    (2253, 2): 11.0, # レッド・ルーラー EXP 10.9-11.0
+    (2435, 3): 11.0, # 異星にいこうね 10.4-11.0
 }
 
 
@@ -460,7 +477,7 @@ class BanState(Exception):
 
 def chunib30(userid, server='aqua', version='2.15', qqnum='未知'):
     user_full_data = get_user_full_data(userid, server)
-    if user_full_data['userData']['lastRomVersion'].startswith('2.25'):
+    if user_full_data['userData']['lastDataVersion'].startswith('2.25'):
         version = '2.25'
     if version == '2.15':
         pic = Image.open('pics/chub30sunp.png')
