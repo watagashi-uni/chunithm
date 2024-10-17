@@ -1,5 +1,85 @@
 [
     {
+        "name": "ハートサーモグラフィー",
+        "id": "2676",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "14564b9e60c02e09.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.0,
+            "master": 13.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "モンダイナイトリッパー！",
+        "id": "2677",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "20b1639d393d2250.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 13.1,
+            "ultima": 14.2,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "特者生存ワンダラダー!!",
+        "id": "2679",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "a7b2b5f25040f5fc.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.0,
+            "master": 13.2,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "壱雫空",
+        "id": "2629",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "74d7657d79febe1b.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 10.8,
+            "master": 14.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "迷星叫",
+        "id": "2630",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "0f124624d6e0be68.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 9.5,
+            "master": 12.6,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "ハッピータイフーン",
         "id": "2673",
         "genreNames": [
@@ -2044,6 +2124,54 @@
             "expert": 8.5,
             "master": 14.5,
             "ultima": 14.8,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "マシンガンポエムドール",
+        "id": "2641",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "ad697090d6e18492.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 8.5,
+            "expert": 14.0,
+            "master": 14.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "スコーピオンガールの貴重な捕食シーン",
+        "id": "2631",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "722f63247dec6910.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.3,
+            "master": 14.1,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "ずんだパーリナイ",
+        "id": "2632",
+        "genreNames": [
+            "niconico"
+        ],
+        "jaketFile": "59c39429b16acbd0.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 8.5,
+            "master": 13.5,
+            "ultima": 0.0,
             "world's end": 0.0
         }
     },
@@ -12864,6 +12992,22 @@
         }
     },
     {
+        "name": "Rhythmic Ride",
+        "id": "2633",
+        "genreNames": [
+            "イロドリミドリ"
+        ],
+        "jaketFile": "77371c1c87534cf9.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 10.1,
+            "master": 13.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
         "name": "オーケー？　オーライ！",
         "id": "683",
         "genreNames": [
@@ -15995,6 +16139,22 @@
             "advanced": 9.0,
             "expert": 13.5,
             "master": 15.2,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Death Doll",
+        "id": "2644",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "12487783a407bcf6.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 6.0,
+            "expert": 11.0,
+            "master": 14.0,
             "ultima": 0.0,
             "world's end": 0.0
         }
@@ -21851,6 +22011,118 @@
             "advanced": 6.0,
             "expert": 11.2,
             "master": 14.5,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Lovely Lovely Lover",
+        "id": "2645",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "4c04f49f8e75db2f.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 5.0,
+            "expert": 11.5,
+            "master": 14.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Fire Engine73",
+        "id": "2646",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "de0cb07cba761e3f.jpg",
+        "difficulties": {
+            "basic": 3.0,
+            "advanced": 7.0,
+            "expert": 12.4,
+            "master": 13.8,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "LibrariA",
+        "id": "2647",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "9dd7d2fa7d37bbfd.jpg",
+        "difficulties": {
+            "basic": 4.0,
+            "advanced": 7.5,
+            "expert": 13.0,
+            "master": 14.9,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Tuatha Dé Danann",
+        "id": "2648",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "49f9b5bed3435175.jpg",
+        "difficulties": {
+            "basic": 5.0,
+            "advanced": 10.0,
+            "expert": 14.3,
+            "master": 15.3,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "マツケンサンバⅡ",
+        "id": "8289",
+        "genreNames": [
+            "POPS & ANIME"
+        ],
+        "jaketFile": "7e34f6d00b69eeb7.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "Reverberate",
+        "id": "8290",
+        "genreNames": [
+            "ORIGINAL"
+        ],
+        "jaketFile": "d4c443166eefb21f.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
+            "ultima": 0.0,
+            "world's end": 0.0
+        }
+    },
+    {
+        "name": "分からない",
+        "id": "8291",
+        "genreNames": [
+            "ゲキマイ"
+        ],
+        "jaketFile": "01b15e5e8fb1fe46.jpg",
+        "difficulties": {
+            "basic": 0.0,
+            "advanced": 0.0,
+            "expert": 0.0,
+            "master": 0.0,
             "ultima": 0.0,
             "world's end": 0.0
         }
